@@ -130,6 +130,12 @@ header {
         display: inline;
         transform: scale(.6)
     }
+    .tagline {
+        top: 83%;
+    }
+    .credit {
+        display:none;
+    }
 }
 /* small screen */
 @media (min-width: 881px) and (max-width: 1380px) {
