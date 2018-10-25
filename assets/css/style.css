@@ -115,7 +115,7 @@ header {
     header {
         height: 450px!important;
         margin-top: -87px!important;
-        margin-bottom: -50px;
+        margin-bottom: -48px;
     }
     .container div {
         width: 180px;
@@ -131,7 +131,7 @@ header {
         transform: scale(.6)
     }
     .tagline {
-        top: 73%;
+        top: 71%;
     }
     .credit {
         display:none;
