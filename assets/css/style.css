@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
     margin: 0px;
@@ -141,3 +142,137 @@ header {
         height: 450px!important;
     }
 }
+=======
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 15px;
+}
+.container div {
+    padding:10px;
+    border: 1px black solid;
+    text-align: center;
+    width: 180px;
+    background: #dddddd;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing:2px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color:black;
+    z-index: 101;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+    /* font-family: 'Unica One', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Ovo', serif; */
+    font-family: 'Arimo', sans-serif;
+
+}
+
+@-webkit-keyframes moveleft {
+    from { left: -100%;  }
+    to { left: 100%;  }
+  }
+.wind {
+    position: absolute; 
+    left: -100%; 
+    background: url(../images/wind.png); 
+    display: block; 
+    width: 3000px; 
+    height: 800px;
+    top:0;
+-webkit-animation-name: moveleft;
+-webkit-animation-duration: 30s;
+-webkit-animation-iteration-count:  infinite;
+-webkit-animation-timing-function: linear;
+z-index: 100;
+
+}
+
+header {
+    display:flex;
+    justify-content:center;
+    padding: 0;
+    align-items:center;
+    height: 490px;
+}
+
+
+.wrapper {
+    /* background-image: url("../images/float.jpg"); */
+    background: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    ),
+    url("../images/float.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 100px; 
+    overflow: hidden;
+    height:100%;
+    position:relative;
+}
+
+.main-btn {
+    transition: all .2s ease-in-out;
+}
+.main-btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.credit {
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+}
+.tagline {
+    position:absolute;
+    top:80%;
+    color:white;
+    font-style: italic;
+    /* border: 1px solid black;
+    border-radius: 12px; */
+    text-align: center;
+}
+
+.logo {
+    transform: scale(.52);
+    z-index: 101;
+}
+/* mobile */
+@media (max-width: 880px) {
+    .logo {
+        transform: scale(.5)!important;
+    z-index: 101;
+    }
+    header {
+        height: 450px!important;
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+    .container div {
+        width: 180px;
+    }
+    .wrapper {
+        background-image: url("../images/forestBW.jpg");
+    }
+}
+/* small screen */
+@media (min-width: 881px) and (max-width: 1380px) {
+    .logo {
+        transform: scale(.5)!important;
+    z-index: 101;
+    }
+    header {
+        height: 450px!important;
+    }
+}
+>>>>>>> dbaf73490fced3569d9dbad9603f9486a0588663
