@@ -110,12 +110,12 @@ header {
 @media (max-width: 880px) {
     .logo {
         transform: scale(.5)!important;
-    z-index: 101;
+        z-index: 101;
     }
     header {
         height: 450px!important;
-        margin-top: -50px;
-        margin-bottom: -20px;
+        margin-top: -87px!important;
+        margin-bottom: -50px;
     }
     .container div {
         width: 180px;
