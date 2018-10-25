@@ -1,0 +1,104 @@
+/* https://femmebot.github.io/google-type/?fbclid=IwAR0ByrunYgv1-bNtgMkeJy6qN5H5KhlmhqBZKsj47P5Hex7cwjsY1UYXD_c */
+body {
+    margin: 0;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 15px;
+}
+.container div {
+    padding:10px;
+    border: 1px black solid;
+    text-align: center;
+    width: 220px;
+    background: #dddddd;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color:black;
+    z-index: 101;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+    /* font-family: 'Unica One', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Ovo', serif; */
+    font-family: 'Arimo', sans-serif;
+
+    
+
+
+
+
+}
+.logo {
+    transform: scale(.7);
+    z-index: 101;
+}
+@media screen and (max-width: 880px) {
+    .logo {
+        transform: scale(.5)!important;
+    z-index: 101;
+    }
+}
+@media screen and (min-width: 881px) and (max-width: 1380px) {
+    .logo {
+        transform: scale(.5)!important;
+    z-index: 101;
+    }
+}
+
+
+@-webkit-keyframes moveleft {
+    from { left: -100%;  }
+    to { left: 0%;  }
+  }
+.wind {
+    position: absolute;
+    left: -100%;
+    background: url(../images/wind.png);
+    display: block;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    -webkit-animation-name: moveleft;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: 100;
+    overflow:hidden;
+}
+
+header {
+    display:flex;
+    justify-content:center;
+    padding: 0;
+    align-items:center;
+}
+/* .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+} */
+
+.wrapper {
+    background-image: url("../images/forestBW.jpg");
+    background-repeat: no-repeat;
+    background-size: auto; 
+    padding: 50px 0 100px; 
+    overflow: hidden;
+    height:800px;
+    width:auto;
+}
+
+.main-btn {
+    transition: all .2s ease-in-out;
+}
+.main-btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
