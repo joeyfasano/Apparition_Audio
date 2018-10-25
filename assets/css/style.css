@@ -102,6 +102,10 @@ header {
     transform: scale(.52);
     z-index: 101;
 }
+.logo2 {
+    display: none;
+}
+
 /* mobile */
 @media (max-width: 880px) {
     .logo {
@@ -118,6 +122,13 @@ header {
     }
     .wrapper {
         background-image: url("../images/forestBW.jpg");
+    }
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: inline;
+        transform: scale(.6)
     }
 }
 /* small screen */
