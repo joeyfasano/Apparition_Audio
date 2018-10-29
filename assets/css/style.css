@@ -9,27 +9,7 @@ body {
     align-items:center;
     margin-bottom: 15px;
 }
-.container div {
-    padding:10px;
-    border: 1px black solid;
-    text-align: center;
-    width: 180px;
-    background: #dddddd;
-    margin-bottom: 10px;
-    font-size: 18px;
-    letter-spacing:2px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 10px;
-    color:black;
-    z-index: 101;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
-    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
-    /* font-family: 'Unica One', cursive; */
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'Ovo', serif; */
-    font-family: 'Arimo', sans-serif;
 
-}
 
 @-webkit-keyframes moveleft {
     from { left: -100%;  }
@@ -78,6 +58,25 @@ header {
 
 .main-btn {
     transition: all .2s ease-in-out;
+    padding:10px;
+    border: 1px black solid;
+    text-align: center;
+    width: 180px;
+    background: #dddddd;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing:2px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color:black;
+    z-index: 101;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+    /* font-family: 'Unica One', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Ovo', serif; */
+    font-family: 'Arimo', sans-serif;
+
 }
 .main-btn:hover {
     transform: scale(1.05);
@@ -89,8 +88,9 @@ header {
     bottom: 2px;
 }
 .tagline {
-    position:absolute;
-    top:80%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     color:white;
     font-style: italic;
     /* border: 1px solid black;
@@ -129,9 +129,6 @@ header {
     .logo2 {
         display: inline;
         transform: scale(.6)
-    }
-    .tagline {
-        top: 75.3%;
     }
     .credit {
         display:none;
